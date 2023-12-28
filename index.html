@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikash Mishra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./mediaquery.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <img src="./logo.png" class="logo" />
+      </div>
+      <div>
+        <ul class="nav-item">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="hamburger">
+      <div>
+        <img src="./logo.png" class="logo" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="togglemenu()">About</a></li>
+          <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+          <li><a href="#project" onclick="togglemenu()">Project</a></li>
+          <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section class="profile">
+      <div class="section__pic-container">
+        <img src="./Profile-pic.png" alt="Bikash Mishra Profile" />
+      </div>
+      <div class="section__text">
+        <p class="section__text-p1">Hello, I'm</p>
+        <h1 class="title">Bikash Mishra</h1>
+        <p class="section__text-p2">Frontend Developer</p>
+        <div class="button-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
+            Contact Info
+          </button>
+        </div>
+        <div class="social-container">
+          <img
+            src="https://w7.pngwing.com/pngs/364/654/png-transparent-computer-icons-linkedin-symbol-miscellaneous-angle-text.png"
+            alt="LinkedIn-Png"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/contact-bikash/'"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="GitHub-Png"
+            class="icon"
+            onclick="location.href='https://github.com/bikaxh01'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text-p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://th.bing.com/th/id/OIG.2A8138_Odnri7dzZX3xr?w=1024&h=1024&rs=1&pid=ImgDetMain"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://static.thenounproject.com/png/1090559-200.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Education%2C_Studying%2C_University%2C_Alumni_-_icon.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Computer Application (pursuing)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm Bikash—a web tech enthusiast with a knack for continuous learning. I thrive on the challenges of web development, finding joy in coding and optimizing digital experiences. My strength lies in staying updated on the latest tech trends, bringing adaptability and innovation to every project. If you're looking for a passionate collaborator committed to making an impact in the dynamic world of web technology, let's connect!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text-p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/683/332/png-transparent-check-mark-computer-icons-checkbox-circle-check-angle-logo-monochrome-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://w7.pngwing.com/pngs/830/38/png-transparent-world-map-illustration-world-map-dot-distribution-map-beautiful-world-map-miscellaneous-world-layout-thumbnail.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">News App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/bikaxh01/News-Application'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/bikaxh01/Js-P1-To-Do'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">To-DO App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LJ6QnKjse-gcXug-kfSJQLnWow_OijnZmHSWJSIT4A&s"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Wheather App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/bikaxh01/30DAYS-JS/tree/main/Day1-P1-weather-App'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text-p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://w7.pngwing.com/pngs/490/260/png-transparent-email-email-thumbnail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mishrabikash202@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://w7.pngwing.com/pngs/364/654/png-transparent-computer-icons-linkedin-symbol-miscellaneous-angle-text.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-item">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Bikash Mishra. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
